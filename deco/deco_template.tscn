@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://bisl3ua8h2vk7"]
+
+[ext_resource type="Texture2D" uid="uid://cxswmbcbom22q" path="res://assets/img/guide_block-Sheet.png" id="1_p8tip"]
+[ext_resource type="Script" uid="uid://nh2mg68vqolh" path="res://deco/deco_template.gd" id="1_t410p"]
+
+[node name="DecoTemplate" type="Node2D" unique_id=723009896]
+script = ExtResource("1_t410p")
+
+[node name="GuidingBlock" type="Sprite2D" parent="." unique_id=1429915701]
+unique_name_in_owner = true
+modulate = Color(1, 1, 1, 0.30980393)
+texture = ExtResource("1_p8tip")
+vframes = 3

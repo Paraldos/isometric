@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cl1v8tmux2nxg"
-path="res://.godot/imported/floor-export.png-36594d99163b7abff25c0a290a37d323.ctex"
+uid="uid://b203mcd4gcpvp"
+path="res://.godot/imported/guide_block.png-a642b97aae6d403871860c4e35671199.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/img/floor-export.png"
-dest_files=["res://.godot/imported/floor-export.png-36594d99163b7abff25c0a290a37d323.ctex"]
+source_file="res://assets/img/guide_block.png"
+dest_files=["res://.godot/imported/guide_block.png-a642b97aae6d403871860c4e35671199.ctex"]
 
 [params]
 
