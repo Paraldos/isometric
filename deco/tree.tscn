@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://c3k68d6hkpjmx"]
+
+[ext_resource type="PackedScene" uid="uid://bisl3ua8h2vk7" path="res://deco/deco_template.tscn" id="1_d1oxj"]
+[ext_resource type="Texture2D" uid="uid://creajl3hlika8" path="res://assets/img/trees.png" id="2_hf208"]
+
+[node name="Tree" unique_id=723009896 instance=ExtResource("1_d1oxj")]
+
+[node name="GuidingBlock" parent="." index="0" unique_id=1429915701]
+position = Vector2(0, 8)
+frame = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="." index="1" unique_id=2082974432]
+position = Vector2(0, -24)
+texture = ExtResource("2_hf208")
