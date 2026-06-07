@@ -2,13 +2,59 @@
 
 [ext_resource type="PackedScene" uid="uid://bisl3ua8h2vk7" path="res://deco/deco_template.tscn" id="1_tprog"]
 [ext_resource type="Texture2D" uid="uid://c7vticn0p270p" path="res://assets/img/fire_bowl-Sheet.png" id="2_hhuc4"]
+[ext_resource type="Script" uid="uid://cgxg1sb5t5bq" path="res://deco/fire_bowl.gd" id="2_u12qx"]
+
+[sub_resource type="Animation" id="Animation_hhuc4"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="Animation" id="Animation_u12qx"]
+resource_name = "fire"
+length = 0.6
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 2
+tracks/0/loop_wrap = false
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.6),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [1, 5]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_khiuj"]
+_data = {
+&"RESET": SubResource("Animation_hhuc4"),
+&"fire": SubResource("Animation_u12qx")
+}
 
 [node name="FireBowl" unique_id=723009896 instance=ExtResource("1_tprog")]
+script = ExtResource("2_u12qx")
+fire_on = true
 
-[node name="GuidingBlock" parent="." index="0" unique_id=1429915701]
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="0" unique_id=1493840186]
+unique_name_in_owner = true
+libraries/ = SubResource("AnimationLibrary_khiuj")
+
+[node name="GuidingBlock" parent="." index="1" unique_id=1429915701]
 position = Vector2(0, 8)
 frame = 2
 
-[node name="Sprite2D" type="Sprite2D" parent="." index="1" unique_id=57590967]
+[node name="Sprite2D" type="Sprite2D" parent="." index="2" unique_id=1253503421]
 position = Vector2(0, -8)
 texture = ExtResource("2_hhuc4")
+hframes = 6

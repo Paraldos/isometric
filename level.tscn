@@ -38,5 +38,9 @@ position = Vector2(160, -8)
 position = Vector2(240, 16)
 scale = Vector2(-1, 1)
 
-[node name="FireBowl" parent="Node2D" unique_id=774064366 instance=ExtResource("3_oi3di")]
+[node name="FireBowl" parent="Node2D" unique_id=836105076 instance=ExtResource("3_oi3di")]
+position = Vector2(144, 40)
+fire_on = false
+
+[node name="FireBowl2" parent="Node2D" unique_id=1183929566 instance=ExtResource("3_oi3di")]
 position = Vector2(240, 56)
