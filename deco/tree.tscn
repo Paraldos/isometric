@@ -14,5 +14,5 @@ frame = 2
 [node name="Sprite2D" type="Sprite2D" parent="." index="1" unique_id=2082974432]
 position = Vector2(0, -24)
 texture = ExtResource("2_hf208")
-hframes = 2
+hframes = 3
 frame = 1
