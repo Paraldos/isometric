@@ -57,10 +57,10 @@ position = Vector2(112, 56)
 position = Vector2(32, 96)
 
 [node name="Tree5" parent="Node2D" unique_id=1826951439 instance=ExtResource("4_0b4ue")]
-position = Vector2(96, 80)
+position = Vector2(80, 88)
 
 [node name="Tree" parent="Node2D" unique_id=350592522 instance=ExtResource("4_0b4ue")]
-position = Vector2(176, 88)
+position = Vector2(176, 72)
 
 [node name="Tree2" parent="Node2D" unique_id=639737974 instance=ExtResource("4_0b4ue")]
 position = Vector2(352, 112)
