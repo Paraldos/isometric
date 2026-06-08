@@ -70,3 +70,5 @@ position = Vector2(144, 112)
 
 [node name="Bush2" parent="Node2D" unique_id=992844775 instance=ExtResource("5_f2txt")]
 position = Vector2(256, 128)
+
+[editable path="Node2D/Torch2"]
