@@ -11,3 +11,9 @@ unique_name_in_owner = true
 modulate = Color(1, 1, 1, 0.30980393)
 texture = ExtResource("1_p8tip")
 vframes = 3
+
+[node name="MainSprite" type="Sprite2D" parent="." unique_id=462025457]
+
+[node name="MainAnimationPlayer" type="AnimationPlayer" parent="MainSprite" unique_id=594552204]
+unique_name_in_owner = true
+root_node = NodePath("../..")

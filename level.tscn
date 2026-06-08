@@ -38,6 +38,7 @@ metadata/_edit_lock_ = true
 
 [node name="Torch" parent="Node2D" unique_id=723009896 instance=ExtResource("2_oi3di")]
 position = Vector2(160, -8)
+animate_loop = false
 
 [node name="Torch2" parent="Node2D" unique_id=876988437 instance=ExtResource("2_oi3di")]
 position = Vector2(240, 16)

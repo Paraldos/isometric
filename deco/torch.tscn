@@ -3,45 +3,50 @@
 [ext_resource type="PackedScene" uid="uid://bisl3ua8h2vk7" path="res://deco/deco_template.tscn" id="1_w7myh"]
 [ext_resource type="Texture2D" uid="uid://xucmfwptf5an" path="res://assets/img/torch-Sheet.png" id="2_7qc8d"]
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_7qc8d"]
-atlas = ExtResource("2_7qc8d")
-region = Rect2(64, 0, 32, 32)
+[sub_resource type="Animation" id="Animation_7qc8d"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("MainSprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_8jlqk"]
-atlas = ExtResource("2_7qc8d")
-region = Rect2(96, 0, 32, 32)
+[sub_resource type="Animation" id="Animation_8jlqk"]
+resource_name = "loop"
+length = 0.4
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("MainSprite:frame")
+tracks/0/interp = 2
+tracks/0/loop_wrap = false
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.4),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [1, 4]
+}
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_jjnhj"]
-atlas = ExtResource("2_7qc8d")
-region = Rect2(128, 0, 32, 32)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_rprmt"]
-atlas = ExtResource("2_7qc8d")
-region = Rect2(32, 0, 32, 32)
-
-[sub_resource type="SpriteFrames" id="SpriteFrames_a3a5r"]
-animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_7qc8d")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_8jlqk")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_jjnhj")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_rprmt")
-}],
-"loop": true,
-"name": &"default",
-"speed": 8.0
-}]
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_jjnhj"]
+_data = {
+&"RESET": SubResource("Animation_7qc8d"),
+&"loop": SubResource("Animation_8jlqk")
+}
 
 [node name="Torch" unique_id=723009896 instance=ExtResource("1_w7myh")]
+animate_loop = true
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." index="1" unique_id=349505944]
-sprite_frames = SubResource("SpriteFrames_a3a5r")
-autoplay = "default"
-frame_progress = 0.93999624
+[node name="MainSprite" parent="." index="1" unique_id=462025457]
+texture = ExtResource("2_7qc8d")
+hframes = 5
+
+[node name="MainAnimationPlayer" parent="MainSprite" index="0" unique_id=594552204]
+libraries/ = SubResource("AnimationLibrary_jjnhj")

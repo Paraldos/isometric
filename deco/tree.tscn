@@ -2,17 +2,15 @@
 
 [ext_resource type="PackedScene" uid="uid://bisl3ua8h2vk7" path="res://deco/deco_template.tscn" id="1_d1oxj"]
 [ext_resource type="Texture2D" uid="uid://bipucw6qastdl" path="res://assets/img/trees-Sheet.png" id="2_hf208"]
-[ext_resource type="Script" uid="uid://sx2dm2woxy7n" path="res://deco/tree.gd" id="2_u6jan"]
 
 [node name="Tree" unique_id=723009896 instance=ExtResource("1_d1oxj")]
-script = ExtResource("2_u6jan")
+randomize_sprite = true
 
 [node name="GuidingBlock" parent="." index="0" unique_id=1429915701]
 position = Vector2(0, 8)
 frame = 2
 
-[node name="Sprite2D" type="Sprite2D" parent="." index="1" unique_id=2082974432]
+[node name="MainSprite" parent="." index="1" unique_id=462025457]
 position = Vector2(0, -24)
 texture = ExtResource("2_hf208")
 hframes = 3
-frame = 1
