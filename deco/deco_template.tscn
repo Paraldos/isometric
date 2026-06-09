@@ -4,6 +4,7 @@
 [ext_resource type="Script" uid="uid://nh2mg68vqolh" path="res://deco/deco_template.gd" id="1_t410p"]
 
 [node name="DecoTemplate" type="Node2D" unique_id=723009896]
+y_sort_enabled = true
 script = ExtResource("1_t410p")
 
 [node name="GuidingBlock" type="Sprite2D" parent="." unique_id=1429915701]
