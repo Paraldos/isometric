@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://c3k68d6hkpjmx" path="res://deco/tree.tscn" id="4_0b4ue"]
 [ext_resource type="PackedScene" uid="uid://cwcv1y8ubrnq0" path="res://deco/bush.tscn" id="5_f2txt"]
 [ext_resource type="PackedScene" uid="uid://ciknnggqu0rad" path="res://deco/rocks.tscn" id="6_1ainy"]
+[ext_resource type="PackedScene" uid="uid://dqtw7ywvnkfi2" path="res://deco/stones.tscn" id="7_n6hdu"]
 
 [node name="Level" type="Node2D" unique_id=1252869144]
 metadata/_edit_lock_ = true
@@ -81,10 +82,28 @@ position = Vector2(240, 152)
 position = Vector2(208, 152)
 
 [node name="Rocks" parent="Node2D" unique_id=53607254 instance=ExtResource("6_1ainy")]
-position = Vector2(336, 144)
+position = Vector2(320, 112)
 
 [node name="Rocks2" parent="Node2D" unique_id=1028444212 instance=ExtResource("6_1ainy")]
 position = Vector2(64, 120)
 
+[node name="Rocks4" parent="Node2D" unique_id=1882144420 instance=ExtResource("6_1ainy")]
+position = Vector2(208, 88)
+
 [node name="Rocks3" parent="Node2D" unique_id=1775727895 instance=ExtResource("6_1ainy")]
 position = Vector2(144, 40)
+
+[node name="DecoTemplate" parent="Node2D" unique_id=919098407 instance=ExtResource("7_n6hdu")]
+position = Vector2(96, 64)
+
+[node name="DecoTemplate2" parent="Node2D" unique_id=1678050453 instance=ExtResource("7_n6hdu")]
+position = Vector2(176, 112)
+
+[node name="DecoTemplate3" parent="Node2D" unique_id=579870369 instance=ExtResource("7_n6hdu")]
+position = Vector2(80, 128)
+
+[node name="DecoTemplate5" parent="Node2D" unique_id=327704985 instance=ExtResource("7_n6hdu")]
+position = Vector2(256, 64)
+
+[node name="DecoTemplate4" parent="Node2D" unique_id=1324878241 instance=ExtResource("7_n6hdu")]
+position = Vector2(384, 136)
