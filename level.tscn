@@ -38,10 +38,10 @@ tile_map_data = PackedByteArray("AAAGAAIAAgAAAAoAAAD//wIAAgAAAAoAAAAIAAcAAgAAAAo
 tile_set = ExtResource("1_u52ul")
 
 [node name="Node2D" type="Node2D" parent="." unique_id=100005043]
+y_sort_enabled = true
 metadata/_edit_lock_ = true
 
 [node name="Torch" parent="Node2D" unique_id=723009896 instance=ExtResource("2_oi3di")]
-y_sort_enabled = false
 position = Vector2(192, -8)
 rotation = -3.1415927
 scale = Vector2(1, -1)
@@ -49,102 +49,67 @@ animate_loop = false
 
 [node name="Bush" parent="Node2D" unique_id=1714897486 instance=ExtResource("5_f2txt")]
 visible = false
+y_sort_enabled = true
 position = Vector2(160, 96)
 
 [node name="Torch2" parent="Node2D" unique_id=876988437 instance=ExtResource("2_oi3di")]
-y_sort_enabled = false
 position = Vector2(240, 16)
 rotation = -3.1415927
 scale = Vector2(1, -1)
 
 [node name="FireBowl" parent="Node2D" unique_id=836105076 instance=ExtResource("3_oi3di")]
-y_sort_enabled = false
-position = Vector2(352, 112)
-animate_loop = false
+position = Vector2(160, 32)
 
 [node name="FireBowl2" parent="Node2D" unique_id=1183929566 instance=ExtResource("3_oi3di")]
-y_sort_enabled = false
 position = Vector2(240, 56)
 
 [node name="Tree3" parent="Node2D" unique_id=750986595 instance=ExtResource("4_0b4ue")]
 visible = false
-y_sort_enabled = false
 position = Vector2(112, 56)
 
 [node name="Tree4" parent="Node2D" unique_id=541713267 instance=ExtResource("4_0b4ue")]
 visible = false
-y_sort_enabled = false
 position = Vector2(32, 96)
 
 [node name="Tree" parent="Node2D" unique_id=350592522 instance=ExtResource("4_0b4ue")]
 visible = false
-y_sort_enabled = false
 position = Vector2(176, 72)
 
 [node name="Tree2" parent="Node2D" unique_id=639737974 instance=ExtResource("4_0b4ue")]
 visible = false
-y_sort_enabled = false
 position = Vector2(288, 136)
 
 [node name="Bush2" parent="Node2D" unique_id=992844775 instance=ExtResource("5_f2txt")]
 visible = false
-y_sort_enabled = false
 position = Vector2(240, 152)
 
 [node name="Bush3" parent="Node2D" unique_id=1159667275 instance=ExtResource("5_f2txt")]
 visible = false
-y_sort_enabled = false
 position = Vector2(208, 152)
 
 [node name="Rocks" parent="Node2D" unique_id=53607254 instance=ExtResource("6_1ainy")]
-y_sort_enabled = false
 position = Vector2(320, 112)
 
 [node name="Rocks2" parent="Node2D" unique_id=1028444212 instance=ExtResource("6_1ainy")]
-y_sort_enabled = false
-position = Vector2(64, 120)
+position = Vector2(48, 112)
 
 [node name="Rocks4" parent="Node2D" unique_id=1882144420 instance=ExtResource("6_1ainy")]
-y_sort_enabled = false
 position = Vector2(208, 88)
 
 [node name="Rocks3" parent="Node2D" unique_id=1775727895 instance=ExtResource("6_1ainy")]
-y_sort_enabled = false
 position = Vector2(144, 40)
 
-[node name="DecoTemplate" parent="Node2D" unique_id=919098407 instance=ExtResource("7_n6hdu")]
-y_sort_enabled = false
-position = Vector2(96, 64)
-
-[node name="DecoTemplate2" parent="Node2D" unique_id=1678050453 instance=ExtResource("7_n6hdu")]
-y_sort_enabled = false
-position = Vector2(176, 112)
-
-[node name="DecoTemplate3" parent="Node2D" unique_id=579870369 instance=ExtResource("7_n6hdu")]
-y_sort_enabled = false
-position = Vector2(80, 128)
-
-[node name="DecoTemplate5" parent="Node2D" unique_id=327704985 instance=ExtResource("7_n6hdu")]
-y_sort_enabled = false
-position = Vector2(256, 64)
-
-[node name="DecoTemplate4" parent="Node2D" unique_id=1324878241 instance=ExtResource("7_n6hdu")]
-y_sort_enabled = false
-position = Vector2(384, 136)
-
 [node name="Tree5" parent="Node2D" unique_id=1379250131 instance=ExtResource("8_i2t4f")]
-y_sort_enabled = false
 position = Vector2(64, 96)
 
 [node name="Tree7" parent="Node2D" unique_id=672645480 instance=ExtResource("8_i2t4f")]
-y_sort_enabled = false
 position = Vector2(176, 152)
 
 [node name="Tree1" parent="Node2D" unique_id=325951181 instance=ExtResource("9_8cye3")]
 position = Vector2(112, 120)
 
 [node name="Tree11" parent="Node2D" unique_id=1407111913 instance=ExtResource("9_8cye3")]
-position = Vector2(160, 48)
+position = Vector2(128, 48)
 
 [node name="Tree9" parent="Node2D" unique_id=1072594096 instance=ExtResource("9_8cye3")]
 position = Vector2(208, 152)
@@ -153,7 +118,45 @@ position = Vector2(208, 152)
 position = Vector2(288, 96)
 
 [node name="Tree12" parent="Node2D" unique_id=340583161 instance=ExtResource("10_8cye3")]
+y_sort_enabled = true
 position = Vector2(176, 88)
 
 [node name="Tree13" parent="Node2D" unique_id=331913083 instance=ExtResource("10_8cye3")]
+y_sort_enabled = true
 position = Vector2(256, 128)
+
+[node name="Stones" parent="Node2D" unique_id=1843313677 instance=ExtResource("7_n6hdu")]
+y_sort_enabled = true
+position = Vector2(112, 56)
+
+[node name="Stones2" parent="Node2D" unique_id=1934586236 instance=ExtResource("7_n6hdu")]
+y_sort_enabled = true
+position = Vector2(256, 64)
+
+[node name="Stones3" parent="Node2D" unique_id=1002530959 instance=ExtResource("7_n6hdu")]
+y_sort_enabled = true
+position = Vector2(16, 112)
+
+[node name="Stones4" parent="Node2D" unique_id=1069303418 instance=ExtResource("7_n6hdu")]
+y_sort_enabled = true
+position = Vector2(368, 144)
+
+[node name="Stones5" parent="Node2D" unique_id=1086403868 instance=ExtResource("7_n6hdu")]
+y_sort_enabled = true
+position = Vector2(240, 152)
+
+[node name="Bush4" parent="Node2D" unique_id=1732655543 instance=ExtResource("5_f2txt")]
+y_sort_enabled = true
+position = Vector2(96, 64)
+
+[node name="Bush5" parent="Node2D" unique_id=2108290546 instance=ExtResource("5_f2txt")]
+y_sort_enabled = true
+position = Vector2(304, 144)
+
+[node name="Bush7" parent="Node2D" unique_id=1354826836 instance=ExtResource("5_f2txt")]
+y_sort_enabled = true
+position = Vector2(272, 72)
+
+[node name="Bush6" parent="Node2D" unique_id=741875522 instance=ExtResource("5_f2txt")]
+y_sort_enabled = true
+position = Vector2(144, 88)

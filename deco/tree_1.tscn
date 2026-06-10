@@ -4,7 +4,6 @@
 [ext_resource type="Texture2D" uid="uid://dixhhws5lbglv" path="res://assets/img/tree1.png" id="2_qs1n3"]
 
 [node name="Tree1" unique_id=723009896 instance=ExtResource("1_i3lb6")]
-y_sort_enabled = true
 
 [node name="GuidingBlock" parent="." index="0" unique_id=1429915701]
 position = Vector2(0, 8)
