@@ -9,6 +9,7 @@ script = ExtResource("1_t410p")
 [node name="GuidingBlock" type="Sprite2D" parent="." unique_id=1429915701]
 unique_name_in_owner = true
 modulate = Color(1, 1, 1, 0.30980393)
+position = Vector2(0, -16)
 texture = ExtResource("1_p8tip")
 vframes = 3
 

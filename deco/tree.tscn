@@ -7,10 +7,10 @@
 randomize_sprite = true
 
 [node name="GuidingBlock" parent="." index="0" unique_id=1429915701]
-position = Vector2(0, 8)
+position = Vector2(0, 0)
 frame = 2
 
 [node name="MainSprite" parent="." index="1" unique_id=462025457]
-position = Vector2(0, -24)
+position = Vector2(0, -32)
 texture = ExtResource("2_hf208")
 hframes = 3
