@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://sdf5eq0yuy75"]
 
 [ext_resource type="PackedScene" uid="uid://bisl3ua8h2vk7" path="res://deco/deco_template.tscn" id="1_3wvu8"]
-[ext_resource type="Texture2D" uid="uid://munlwir4tegx" path="res://assets/img/tree2.png" id="2_3no0m"]
+[ext_resource type="Texture2D" uid="uid://bipucw6qastdl" path="res://assets/img/trees-Sheet.png" id="2_3wvu8"]
 
 [node name="Tree2" unique_id=723009896 instance=ExtResource("1_3wvu8")]
 
@@ -11,4 +11,5 @@ frame = 2
 
 [node name="MainSprite" parent="." index="1" unique_id=462025457]
 position = Vector2(0, -32)
-texture = ExtResource("2_3no0m")
+texture = ExtResource("2_3wvu8")
+hframes = 3
