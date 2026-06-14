@@ -42,14 +42,13 @@ _data = {
 }
 
 [node name="Torch" unique_id=723009896 instance=ExtResource("1_w7myh")]
-z_index = 1
 animate_loop = true
 
 [node name="GuidingBlock" parent="." index="0" unique_id=1429915701]
-position = Vector2(0, -8)
+position = Vector2(-8, -32)
 
 [node name="MainSprite" parent="." index="1" unique_id=462025457]
-position = Vector2(0, -8)
+position = Vector2(-8, -32)
 texture = ExtResource("2_7qc8d")
 hframes = 5
 

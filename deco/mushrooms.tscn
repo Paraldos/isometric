@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://ylfaqeeiq74j"]
+
+[ext_resource type="PackedScene" uid="uid://bisl3ua8h2vk7" path="res://deco/deco_template.tscn" id="1_5mey7"]
+[ext_resource type="Texture2D" uid="uid://cw5pyj6kv4v5j" path="res://assets/img/mushrooms-Sheet.png" id="2_kq03g"]
+
+[node name="Mushrooms" unique_id=723009896 instance=ExtResource("1_5mey7")]
+randomize_sprite = true
+
+[node name="GuidingBlock" parent="." index="0" unique_id=1429915701]
+position = Vector2(0, 0)
+frame = 2
+
+[node name="MainSprite" parent="." index="1" unique_id=462025457]
+position = Vector2(0, -16)
+texture = ExtResource("2_kq03g")
+hframes = 5
