@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bt7xnjh4mvct0"
-path="res://.godot/imported/water_blocks-Sheet.png-70970316765ee921faef659fa70c1f5a.ctex"
+uid="uid://cv4puh1v1inp6"
+path="res://.godot/imported/water-Sheet.png-a12d0b96c7b63f040b1dbad6af68d980.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/img/water_blocks-Sheet.png"
-dest_files=["res://.godot/imported/water_blocks-Sheet.png-70970316765ee921faef659fa70c1f5a.ctex"]
+source_file="res://assets/img/water-Sheet.png"
+dest_files=["res://.godot/imported/water-Sheet.png-a12d0b96c7b63f040b1dbad6af68d980.ctex"]
 
 [params]
 
