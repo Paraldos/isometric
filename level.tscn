@@ -8,6 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://c3k68d6hkpjmx" path="res://deco/tree.tscn" id="6_n6hdu"]
 [ext_resource type="PackedScene" uid="uid://dqtw7ywvnkfi2" path="res://deco/stones.tscn" id="7_n6hdu"]
 [ext_resource type="PackedScene" uid="uid://cgte4007nabhe" path="res://deco/fire_bowl.tscn" id="8_km5ld"]
+[ext_resource type="PackedScene" uid="uid://bhpf8as2ad0wi" path="res://deco/scatter_wood.tscn" id="9_i2t4f"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_n6hdu"]
 texture = ExtResource("2_n6hdu")
@@ -159,6 +160,24 @@ position = Vector2(32, 144)
 
 [node name="FireBowl" parent="Deco" unique_id=1007865954 instance=ExtResource("8_km5ld")]
 position = Vector2(176, 72)
+
+[node name="ScatterWood" parent="Deco" unique_id=344711584 instance=ExtResource("9_i2t4f")]
+position = Vector2(0, 168)
+
+[node name="ScatterWood2" parent="Deco" unique_id=813230569 instance=ExtResource("9_i2t4f")]
+position = Vector2(128, 184)
+
+[node name="ScatterWood6" parent="Deco" unique_id=32555137 instance=ExtResource("9_i2t4f")]
+position = Vector2(192, 112)
+
+[node name="ScatterWood3" parent="Deco" unique_id=1866247322 instance=ExtResource("9_i2t4f")]
+position = Vector2(160, 248)
+
+[node name="ScatterWood4" parent="Deco" unique_id=1006232298 instance=ExtResource("9_i2t4f")]
+position = Vector2(320, 208)
+
+[node name="ScatterWood5" parent="Deco" unique_id=1202019853 instance=ExtResource("9_i2t4f")]
+position = Vector2(384, 184)
 
 [node name="DecoHalf" type="Node2D" parent="." unique_id=1275872698]
 y_sort_enabled = true
