@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://de18yew5fwayb"
-path="res://.godot/imported/nature_blocks-Sheet.png-66a1777069662fa0d0601a3350bdee2e.ctex"
+uid="uid://chcimwqyqft7u"
+path="res://.godot/imported/Bushes-Sheet.png-9b0ac365b964c3f61f067870f63fec40.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/img/nature_blocks-Sheet.png"
-dest_files=["res://.godot/imported/nature_blocks-Sheet.png-66a1777069662fa0d0601a3350bdee2e.ctex"]
+source_file="res://assets/img/nature/Bushes-Sheet.png"
+dest_files=["res://.godot/imported/Bushes-Sheet.png-9b0ac365b964c3f61f067870f63fec40.ctex"]
 
 [params]
 

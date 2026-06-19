@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cay0spe32k8y4"
-path="res://.godot/imported/stone_bridge-Sheet.png-81d4cce0d69d381dfa26625e3f96afc2.ctex"
+uid="uid://cw5pyj6kv4v5j"
+path="res://.godot/imported/mushrooms-Sheet.png-52a3a85174d9ae3def92183ef31e1db1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/img/stone_bridge-Sheet.png"
-dest_files=["res://.godot/imported/stone_bridge-Sheet.png-81d4cce0d69d381dfa26625e3f96afc2.ctex"]
+source_file="res://assets/img/nature/mushrooms-Sheet.png"
+dest_files=["res://.godot/imported/mushrooms-Sheet.png-52a3a85174d9ae3def92183ef31e1db1.ctex"]
 
 [params]
 

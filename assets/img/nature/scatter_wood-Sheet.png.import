@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b5kbp06klgrtk"
-path="res://.godot/imported/stones-Sheet.png-0111d1375fc0183f8d25a12b15c242e7.ctex"
+uid="uid://bys7ku7318dc7"
+path="res://.godot/imported/scatter_wood-Sheet.png-cf548223ee91dd795a0b7e94fb94a1eb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/img/stones-Sheet.png"
-dest_files=["res://.godot/imported/stones-Sheet.png-0111d1375fc0183f8d25a12b15c242e7.ctex"]
+source_file="res://assets/img/nature/scatter_wood-Sheet.png"
+dest_files=["res://.godot/imported/scatter_wood-Sheet.png-cf548223ee91dd795a0b7e94fb94a1eb.ctex"]
 
 [params]
 

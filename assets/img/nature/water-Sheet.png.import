@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bipucw6qastdl"
-path="res://.godot/imported/trees-Sheet.png-310e755f0d062cede420777796f177d5.ctex"
+uid="uid://cv4puh1v1inp6"
+path="res://.godot/imported/water-Sheet.png-9edca58be7b81ca8f2e1a6ea89670813.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/img/trees-Sheet.png"
-dest_files=["res://.godot/imported/trees-Sheet.png-310e755f0d062cede420777796f177d5.ctex"]
+source_file="res://assets/img/nature/water-Sheet.png"
+dest_files=["res://.godot/imported/water-Sheet.png-9edca58be7b81ca8f2e1a6ea89670813.ctex"]
 
 [params]
 

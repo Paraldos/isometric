@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://db12kpla5h4v1"
-path="res://.godot/imported/blocks_nature_bricks-Sheet.png-499d6b779e9faf6ada5180c24f6bc179.ctex"
+uid="uid://bipucw6qastdl"
+path="res://.godot/imported/trees-Sheet.png-e0373f1111aa29b606dd0bb278255abb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/img/blocks_nature_bricks-Sheet.png"
-dest_files=["res://.godot/imported/blocks_nature_bricks-Sheet.png-499d6b779e9faf6ada5180c24f6bc179.ctex"]
+source_file="res://assets/img/nature/trees-Sheet.png"
+dest_files=["res://.godot/imported/trees-Sheet.png-e0373f1111aa29b606dd0bb278255abb.ctex"]
 
 [params]
 

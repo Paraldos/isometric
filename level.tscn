@@ -2,7 +2,7 @@
 
 [ext_resource type="TileSet" uid="uid://bav5icqvendpw" path="res://tiles/TileSet.tres" id="1_u52ul"]
 [ext_resource type="PackedScene" uid="uid://ylfaqeeiq74j" path="res://deco/mushrooms.tscn" id="2_0b4ue"]
-[ext_resource type="Texture2D" uid="uid://cqenqnn5fur0t" path="res://assets/img/blocks_nature-Sheet.png" id="2_n6hdu"]
+[ext_resource type="Texture2D" uid="uid://cqenqnn5fur0t" path="res://assets/img/nature/blocks_nature-Sheet.png" id="2_n6hdu"]
 [ext_resource type="PackedScene" uid="uid://ds2u3gvnp38pc" path="res://deco/torch.tscn" id="2_oi3di"]
 [ext_resource type="PackedScene" uid="uid://ciknnggqu0rad" path="res://deco/rocks.tscn" id="6_1ainy"]
 [ext_resource type="PackedScene" uid="uid://c3k68d6hkpjmx" path="res://deco/tree.tscn" id="6_n6hdu"]

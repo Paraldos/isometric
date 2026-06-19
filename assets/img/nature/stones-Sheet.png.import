@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cqenqnn5fur0t"
-path="res://.godot/imported/blocks_nature-Sheet.png-2e02ce7aaa4b3d37b2933b5c9858461c.ctex"
+uid="uid://b5kbp06klgrtk"
+path="res://.godot/imported/stones-Sheet.png-52ed97fe1df78e1dcedd2f723709f2a6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/img/blocks_nature-Sheet.png"
-dest_files=["res://.godot/imported/blocks_nature-Sheet.png-2e02ce7aaa4b3d37b2933b5c9858461c.ctex"]
+source_file="res://assets/img/nature/stones-Sheet.png"
+dest_files=["res://.godot/imported/stones-Sheet.png-52ed97fe1df78e1dcedd2f723709f2a6.ctex"]
 
 [params]
 

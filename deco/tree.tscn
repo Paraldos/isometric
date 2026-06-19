@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://c3k68d6hkpjmx"]
 
 [ext_resource type="PackedScene" uid="uid://bisl3ua8h2vk7" path="res://deco/deco_template.tscn" id="1_d1oxj"]
-[ext_resource type="Texture2D" uid="uid://bipucw6qastdl" path="res://assets/img/trees-Sheet.png" id="2_hf208"]
+[ext_resource type="Texture2D" uid="uid://bipucw6qastdl" path="res://assets/img/nature/trees-Sheet.png" id="2_hf208"]
 
 [node name="Tree" unique_id=723009896 instance=ExtResource("1_d1oxj")]
 randomize_sprite = true

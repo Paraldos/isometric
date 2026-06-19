@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dsfh0nxh5vuwx"
-path="res://.godot/imported/wood_bridge-Sheet.png-7a54025583f368e857fff54c3d606319.ctex"
+uid="uid://cqenqnn5fur0t"
+path="res://.godot/imported/blocks_nature-Sheet.png-190e384dafaaba6112807c0d67104070.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/img/wood_bridge-Sheet.png"
-dest_files=["res://.godot/imported/wood_bridge-Sheet.png-7a54025583f368e857fff54c3d606319.ctex"]
+source_file="res://assets/img/nature/blocks_nature-Sheet.png"
+dest_files=["res://.godot/imported/blocks_nature-Sheet.png-190e384dafaaba6112807c0d67104070.ctex"]
 
 [params]
 

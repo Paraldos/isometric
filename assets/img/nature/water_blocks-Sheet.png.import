@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bys7ku7318dc7"
-path="res://.godot/imported/scatter_wood-Sheet.png-b933feb6891e76484ade85cc59c6624e.ctex"
+uid="uid://l1qygin4enu4"
+path="res://.godot/imported/water_blocks-Sheet.png-431738c94348e1dbfff0e87068435720.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/img/scatter_wood-Sheet.png"
-dest_files=["res://.godot/imported/scatter_wood-Sheet.png-b933feb6891e76484ade85cc59c6624e.ctex"]
+source_file="res://assets/img/nature/water_blocks-Sheet.png"
+dest_files=["res://.godot/imported/water_blocks-Sheet.png-431738c94348e1dbfff0e87068435720.ctex"]
 
 [params]
 
