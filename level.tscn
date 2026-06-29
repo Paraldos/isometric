@@ -3,6 +3,8 @@
 [ext_resource type="TileSet" uid="uid://bav5icqvendpw" path="res://tiles/TileSet.tres" id="1_u52ul"]
 [ext_resource type="PackedScene" uid="uid://c3k68d6hkpjmx" path="res://deco/tree.tscn" id="2_oi3di"]
 [ext_resource type="PackedScene" uid="uid://ciknnggqu0rad" path="res://deco/rocks.tscn" id="3_0b4ue"]
+[ext_resource type="PackedScene" uid="uid://cwcv1y8ubrnq0" path="res://deco/bush.tscn" id="4_0b4ue"]
+[ext_resource type="PackedScene" uid="uid://deabohwrhug2n" path="res://deco/flowers.tscn" id="5_f2txt"]
 
 [sub_resource type="TileSet" id="TileSet_km5ld"]
 tile_shape = 1
@@ -204,6 +206,30 @@ position = Vector2(112, 120)
 
 [node name="Rocks5" parent="Deco" unique_id=626306061 instance=ExtResource("3_0b4ue")]
 position = Vector2(272, 136)
+
+[node name="Bush" parent="Deco" unique_id=884414266 instance=ExtResource("4_0b4ue")]
+position = Vector2(128, 184)
+
+[node name="Bush2" parent="Deco" unique_id=699969449 instance=ExtResource("4_0b4ue")]
+position = Vector2(272, 152)
+
+[node name="Bush3" parent="Deco" unique_id=642904803 instance=ExtResource("4_0b4ue")]
+position = Vector2(224, 200)
+
+[node name="Flowers" parent="Deco" unique_id=1749461937 instance=ExtResource("5_f2txt")]
+position = Vector2(96, 184)
+
+[node name="Flowers2" parent="Deco" unique_id=392946146 instance=ExtResource("5_f2txt")]
+position = Vector2(208, 224)
+
+[node name="Flowers3" parent="Deco" unique_id=1375516623 instance=ExtResource("5_f2txt")]
+position = Vector2(256, 160)
+
+[node name="Flowers5" parent="Deco" unique_id=375442365 instance=ExtResource("5_f2txt")]
+position = Vector2(256, 96)
+
+[node name="Flowers4" parent="Deco" unique_id=1995294582 instance=ExtResource("5_f2txt")]
+position = Vector2(112, 136)
 
 [node name="DecoHalf" type="Node2D" parent="." unique_id=1275872698]
 y_sort_enabled = true
