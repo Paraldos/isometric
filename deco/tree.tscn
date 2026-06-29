@@ -13,5 +13,5 @@ frame = 2
 [node name="MainSprite" parent="." index="1" unique_id=462025457]
 position = Vector2(0, -32)
 texture = ExtResource("2_hf208")
-hframes = 3
+hframes = 6
 frame = 1
