@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bipucw6qastdl"
-path="res://.godot/imported/trees-Sheet.png-e0373f1111aa29b606dd0bb278255abb.ctex"
+uid="uid://q0bfuo1kod6c"
+path="res://.godot/imported/blocky_mushrooms-Sheet.png-aca5e44950a34dff93a9b7e595cc183d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/img/nature/trees-Sheet.png"
-dest_files=["res://.godot/imported/trees-Sheet.png-e0373f1111aa29b606dd0bb278255abb.ctex"]
+source_file="res://assets/img/nature/blocky_mushrooms-Sheet.png"
+dest_files=["res://.godot/imported/blocky_mushrooms-Sheet.png-aca5e44950a34dff93a9b7e595cc183d.ctex"]
 
 [params]
 

@@ -1,0 +1,41 @@
+[gd_scene format=3 uid="uid://c20dfn5nun2y4"]
+
+[ext_resource type="TileSet" uid="uid://bav5icqvendpw" path="res://tiles/TileSet.tres" id="1_cqpge"]
+
+[node name="Level" type="Node2D" unique_id=1252869144]
+y_sort_enabled = true
+metadata/_edit_lock_ = true
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1015777064]
+anchor_mode = 0
+
+[node name="TileMap" type="Node2D" parent="." unique_id=722974484]
+y_sort_enabled = true
+metadata/_edit_lock_ = true
+
+[node name="Layer1" type="TileMapLayer" parent="TileMap" unique_id=1753328162]
+y_sort_enabled = true
+tile_set = ExtResource("1_cqpge")
+
+[node name="Layer2" type="TileMapLayer" parent="TileMap" unique_id=1368217024]
+y_sort_enabled = true
+tile_set = ExtResource("1_cqpge")
+y_sort_origin = 16
+
+[node name="Layer3" type="TileMapLayer" parent="TileMap" unique_id=875890928]
+y_sort_enabled = true
+tile_set = ExtResource("1_cqpge")
+y_sort_origin = 32
+
+[node name="Layer4" type="TileMapLayer" parent="TileMap" unique_id=1715308759]
+y_sort_enabled = true
+tile_set = ExtResource("1_cqpge")
+y_sort_origin = 48
+
+[node name="Deco" type="Node2D" parent="." unique_id=100005043]
+y_sort_enabled = true
+metadata/_edit_lock_ = true
+
+[node name="DecoHalf" type="Node2D" parent="." unique_id=1275872698]
+y_sort_enabled = true
+position = Vector2(0, -1)
