@@ -1,6 +1,6 @@
 [gd_scene format=4 uid="uid://dlostfu01ea2f"]
 
-[ext_resource type="TileSet" uid="uid://bav5icqvendpw" path="res://tiles/TileSet.tres" id="1_jr0a5"]
+[ext_resource type="TileSet" uid="uid://bav5icqvendpw" path="res://tiles/TileSet.tres" id="1_tovi1"]
 
 [node name="Tiles" type="Node2D" unique_id=1252869144]
 y_sort_enabled = true
@@ -16,56 +16,56 @@ metadata/_edit_lock_ = true
 [node name="Layer1" type="TileMapLayer" parent="TileMap" unique_id=2009204516]
 y_sort_enabled = true
 tile_map_data = PackedByteArray("AAD9/wMAAAABAAAAAAD+/wMAAAABAAAAAAD//wMAAAABAAAAAAAAAAMAAAABAAAAAAAAAAQAAAABAAAAAAAAAAUAAAABAAAAAAAAAAYAAAABAAAAAAD//wYAAAABAAAAAAD+/wYAAAABAAAAAAD9/wYAAAABAAAAAAD9/wQAAAABAAAAAAD9/wUAAAABAAAAAAD//wQAAAABAAEAAAD+/wQAAAABAAEAAAD//wUAAAABAAEAAAD+/wUAAAABAAEAAAA=")
-tile_set = ExtResource("1_jr0a5")
+tile_set = ExtResource("1_tovi1")
 metadata/_edit_lock_ = true
 
 [node name="Layer2" type="TileMapLayer" parent="TileMap" unique_id=529958062]
 y_sort_enabled = true
 position = Vector2(136, 0)
 tile_map_data = PackedByteArray("AAD9/wMAAAACAAAAAAD+/wMAAAACAAAAAAD//wMAAAACAAAAAAAAAAMAAAACAAAAAAAAAAQAAAACAAAAAAAAAAUAAAACAAAAAAAAAAYAAAACAAAAAAD//wYAAAACAAAAAAD+/wYAAAACAAAAAAD9/wYAAAACAAAAAAD9/wQAAAACAAAAAAD9/wUAAAACAAAAAAD//wQAAAACAAEAAAD+/wQAAAACAAEAAAD//wUAAAACAAEAAAD+/wUAAAACAAEAAAA=")
-tile_set = ExtResource("1_jr0a5")
+tile_set = ExtResource("1_tovi1")
 
 [node name="Layer3" type="TileMapLayer" parent="TileMap" unique_id=591874092]
 y_sort_enabled = true
 position = Vector2(272, 0)
 tile_map_data = PackedByteArray("AAD9/wMAAAAGAAAAAAD+/wMAAAAGAAAAAAD//wMAAAAGAAAAAAAAAAMAAAAGAAAAAAAAAAQAAAAGAAAAAAAAAAUAAAAGAAAAAAAAAAYAAAAGAAAAAAD//wYAAAAGAAAAAAD+/wYAAAAGAAAAAAD9/wYAAAAGAAAAAAD9/wQAAAAGAAAAAAD9/wUAAAAGAAAAAAD//wQAAAAGAAEAAAD+/wQAAAAGAAEAAAD//wUAAAAGAAEAAAD+/wUAAAAGAAEAAAA=")
-tile_set = ExtResource("1_jr0a5")
+tile_set = ExtResource("1_tovi1")
 
 [node name="Layer4" type="TileMapLayer" parent="TileMap" unique_id=1558480789]
 y_sort_enabled = true
 position = Vector2(0, 88)
 tile_map_data = PackedByteArray("AAD9/wMAAAAHAAAAAAD+/wMAAAAHAAAAAAD//wMAAAAHAAAAAAAAAAMAAAAHAAAAAAAAAAQAAAAHAAAAAAAAAAUAAAAHAAAAAAAAAAYAAAAHAAAAAAD//wYAAAAHAAAAAAD+/wYAAAAHAAAAAAD9/wYAAAAHAAAAAAD9/wQAAAAHAAAAAAD9/wUAAAAHAAAAAAD//wQAAAAHAAEAAAD+/wQAAAAHAAEAAAD//wUAAAAHAAEAAAD+/wUAAAAHAAEAAAA=")
-tile_set = ExtResource("1_jr0a5")
+tile_set = ExtResource("1_tovi1")
 
 [node name="Layer5" type="TileMapLayer" parent="TileMap" unique_id=974729769]
 y_sort_enabled = true
 position = Vector2(136, 88)
 tile_map_data = PackedByteArray("AAD9/wMAAAAIAAAAAAD+/wMAAAAIAAAAAAD//wMAAAAIAAAAAAAAAAMAAAAIAAAAAAAAAAQAAAAIAAAAAAAAAAUAAAAIAAAAAAAAAAYAAAAIAAAAAAD//wYAAAAIAAAAAAD+/wYAAAAIAAAAAAD9/wYAAAAIAAAAAAD9/wQAAAAIAAAAAAD9/wUAAAAIAAAAAAD//wQAAAAIAAEAAAD+/wQAAAAIAAEAAAD//wUAAAAIAAEAAAD+/wUAAAAIAAEAAAA=")
-tile_set = ExtResource("1_jr0a5")
+tile_set = ExtResource("1_tovi1")
 
 [node name="Layer6" type="TileMapLayer" parent="TileMap" unique_id=1903747561]
 y_sort_enabled = true
 position = Vector2(272, 88)
 tile_map_data = PackedByteArray("AAD9/wMAAAAJAAAAAAD+/wMAAAAJAAAAAAD//wMAAAAJAAAAAAAAAAMAAAAJAAAAAAAAAAQAAAAJAAAAAAAAAAUAAAAJAAAAAAAAAAYAAAAJAAAAAAD//wYAAAAJAAAAAAD+/wYAAAAJAAAAAAD9/wYAAAAJAAAAAAD9/wQAAAAJAAAAAAD9/wUAAAAJAAAAAAD//wQAAAAJAAEAAAD+/wQAAAAJAAEAAAD//wUAAAAJAAEAAAD+/wUAAAAJAAEAAAA=")
-tile_set = ExtResource("1_jr0a5")
+tile_set = ExtResource("1_tovi1")
 
 [node name="Layer7" type="TileMapLayer" parent="TileMap" unique_id=121323711]
 y_sort_enabled = true
 position = Vector2(0, 176)
 tile_map_data = PackedByteArray("AAD9/wMAAAAKAAAAAAD+/wMAAAAKAAAAAAD//wMAAAAKAAAAAAAAAAMAAAAKAAAAAAAAAAQAAAAKAAAAAAAAAAUAAAAKAAAAAAAAAAYAAAAKAAAAAAD//wYAAAAKAAAAAAD+/wYAAAAKAAAAAAD9/wYAAAAKAAAAAAD9/wQAAAAKAAAAAAD9/wUAAAAKAAAAAAD//wQAAAAKAAEAAAD+/wQAAAAKAAEAAAD//wUAAAAKAAEAAAD+/wUAAAAKAAEAAAA=")
-tile_set = ExtResource("1_jr0a5")
+tile_set = ExtResource("1_tovi1")
 
 [node name="Layer8" type="TileMapLayer" parent="TileMap" unique_id=814532335]
 y_sort_enabled = true
 position = Vector2(272, 176)
 tile_map_data = PackedByteArray("AAD9/wMAAAALAAAAAAD+/wMAAAALAAAAAAD//wMAAAALAAAAAAAAAAMAAAALAAAAAAAAAAQAAAALAAAAAAAAAAUAAAALAAAAAAAAAAYAAAALAAAAAAD//wYAAAALAAAAAAD+/wYAAAALAAAAAAD9/wYAAAALAAAAAAD9/wQAAAALAAAAAAD9/wUAAAALAAAAAAD//wQAAAALAAEAAAD+/wQAAAALAAEAAAD//wUAAAALAAEAAAD+/wUAAAALAAEAAAA=")
-tile_set = ExtResource("1_jr0a5")
+tile_set = ExtResource("1_tovi1")
 
 [node name="Layer9" type="TileMapLayer" parent="TileMap" unique_id=1121994598]
 y_sort_enabled = true
 position = Vector2(136, 176)
 tile_map_data = PackedByteArray("AAD9/wMAAQAAAAIAAAD+/wMAAQAAAAIAAAD//wMAAQAAAAIAAAAAAAMAAQAAAAIAAAAAAAQAAQAAAAIAAAAAAAUAAQAAAAAAAAAAAAYAAQAAAAAAAAD//wYAAQAAAAAAAAD+/wYAAQAAAAAAAAD9/wYAAQAAAAAAAAD9/wQAAQAAAAIAAAD9/wUAAQAAAAAAAAD//wQAAQAAAAMAAAD+/wQAAQAAAAMAAAD//wUAAQAAAAEAAAD+/wUAAQAAAAEAAAA=")
-tile_set = ExtResource("1_jr0a5")
+tile_set = ExtResource("1_tovi1")
 
 [node name="Deco" type="Node2D" parent="." unique_id=100005043]
 y_sort_enabled = true

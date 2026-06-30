@@ -1,8 +1,8 @@
 [gd_scene format=4 uid="uid://cjhk3j1mwuthp"]
 
-[ext_resource type="PackedScene" uid="uid://c20dfn5nun2y4" path="res://level/level_template.tscn" id="1_1bs7y"]
+[ext_resource type="PackedScene" uid="uid://c20dfn5nun2y4" path="res://level/level_template.tscn" id="1_gnsla"]
 
-[node name="Bridges" unique_id=1252869144 instance=ExtResource("1_1bs7y")]
+[node name="Bridges" unique_id=1252869144 instance=ExtResource("1_gnsla")]
 
 [node name="TileMap" parent="." index="1" unique_id=722974484]
 position = Vector2(32, 16)
