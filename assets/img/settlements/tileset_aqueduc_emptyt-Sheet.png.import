@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://wb6wq3lpxjcl"
-path="res://.godot/imported/fence-Sheet.png-6fdae1de851d8abb9971d1d17a801b56.ctex"
+uid="uid://djnsq0xl8fum7"
+path="res://.godot/imported/tileset_aqueduc_emptyt-Sheet.png-0a9c204d901c41403f13bd4fe23288e0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/img/fence-Sheet.png"
-dest_files=["res://.godot/imported/fence-Sheet.png-6fdae1de851d8abb9971d1d17a801b56.ctex"]
+source_file="res://assets/img/settlements/tileset_aqueduc_emptyt-Sheet.png"
+dest_files=["res://.godot/imported/tileset_aqueduc_emptyt-Sheet.png-0a9c204d901c41403f13bd4fe23288e0.ctex"]
 
 [params]
 

@@ -1,6 +1,6 @@
 [gd_scene format=4 uid="uid://kdfu3ovpy1ai"]
 
-[ext_resource type="PackedScene" uid="uid://c20dfn5nun2y4" path="res://level/template.tscn" id="1_cyjpo"]
+[ext_resource type="PackedScene" uid="uid://c20dfn5nun2y4" path="res://level/level_template.tscn" id="1_cyjpo"]
 [ext_resource type="PackedScene" uid="uid://c3k68d6hkpjmx" path="res://deco/tree.tscn" id="2_l2cy3"]
 [ext_resource type="PackedScene" uid="uid://cwcv1y8ubrnq0" path="res://deco/bush.tscn" id="3_45hfl"]
 [ext_resource type="PackedScene" uid="uid://deabohwrhug2n" path="res://deco/flowers.tscn" id="4_tod8d"]

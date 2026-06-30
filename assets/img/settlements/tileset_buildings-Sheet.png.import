@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b3ys2r3x87nhm"
-path="res://.godot/imported/bridges-Sheet.png-ad34006c726dbc53e2dae5e304b68d73.ctex"
+uid="uid://b0lden7fs4ex6"
+path="res://.godot/imported/tileset_buildings-Sheet.png-8419be06f4ac71fa9334302b30523dc6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/img/bridges-Sheet.png"
-dest_files=["res://.godot/imported/bridges-Sheet.png-ad34006c726dbc53e2dae5e304b68d73.ctex"]
+source_file="res://assets/img/settlements/tileset_buildings-Sheet.png"
+dest_files=["res://.godot/imported/tileset_buildings-Sheet.png-8419be06f4ac71fa9334302b30523dc6.ctex"]
 
 [params]
 

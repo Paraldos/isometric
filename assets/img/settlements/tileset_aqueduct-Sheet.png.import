@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://kwxm1jusw4r8"
-path="res://.godot/imported/blocks_buildings-Sheet.png-92cc961a8f51450ba8a1ebc7115b66ae.ctex"
+uid="uid://bnixlko8i0ara"
+path="res://.godot/imported/tileset_aqueduct-Sheet.png-ae9ce37465b427517bc2df18a1c9cb1d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/img/blocks_buildings-Sheet.png"
-dest_files=["res://.godot/imported/blocks_buildings-Sheet.png-92cc961a8f51450ba8a1ebc7115b66ae.ctex"]
+source_file="res://assets/img/settlements/tileset_aqueduct-Sheet.png"
+dest_files=["res://.godot/imported/tileset_aqueduct-Sheet.png-ae9ce37465b427517bc2df18a1c9cb1d.ctex"]
 
 [params]
 
