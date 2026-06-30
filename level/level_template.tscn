@@ -16,11 +16,12 @@ metadata/_edit_lock_ = true
 [node name="Layer-2" type="TileMapLayer" parent="TileMap" unique_id=97697356]
 y_sort_enabled = true
 tile_set = ExtResource("1_cqpge")
-y_sort_origin = -16
+y_sort_origin = -32
 
 [node name="Layer-1" type="TileMapLayer" parent="TileMap" unique_id=479169687]
 y_sort_enabled = true
 tile_set = ExtResource("1_cqpge")
+y_sort_origin = -16
 
 [node name="Layer1" type="TileMapLayer" parent="TileMap" unique_id=1753328162]
 y_sort_enabled = true
@@ -40,6 +41,11 @@ y_sort_origin = 32
 y_sort_enabled = true
 tile_set = ExtResource("1_cqpge")
 y_sort_origin = 48
+
+[node name="Layer5" type="TileMapLayer" parent="TileMap" unique_id=405971265]
+y_sort_enabled = true
+tile_set = ExtResource("1_cqpge")
+y_sort_origin = 64
 
 [node name="Deco" type="Node2D" parent="." unique_id=100005043]
 y_sort_enabled = true
