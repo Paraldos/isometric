@@ -6,8 +6,7 @@
 
 [node name="Door" type="Sprite2D" unique_id=1504316331]
 texture = ExtResource("2_mx18j")
-hframes = 20
-frame = 2
+hframes = 10
 script = ExtResource("2_w10jk")
 door_hinges = 1
 
@@ -15,5 +14,5 @@ door_hinges = 1
 unique_name_in_owner = true
 visible = false
 texture = ExtResource("3_wui12")
-hframes = 8
-frame = 6
+hframes = 4
+vframes = 2

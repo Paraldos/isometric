@@ -5,4 +5,4 @@
 [node name="Trapdoor" type="Sprite2D" unique_id=2117278513]
 texture = ExtResource("2_sx7lw")
 offset = Vector2(0, -8)
-hframes = 8
+hframes = 2
