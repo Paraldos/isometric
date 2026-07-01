@@ -287,6 +287,18 @@ texture_region_size = Vector2i(32, 32)
 6:10/0 = 0
 6:11/0 = 0
 6:12/0 = 0
+7:0/0 = 0
+7:1/0 = 0
+7:2/0 = 0
+7:3/0 = 0
+7:4/0 = 0
+7:5/0 = 0
+7:6/0 = 0
+7:7/0 = 0
+7:8/0 = 0
+7:9/0 = 0
+7:10/0 = 0
+7:11/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1punk"]
 texture = ExtResource("4_oge78")

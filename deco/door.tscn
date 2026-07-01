@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://6to1g1abd2pn"]
+
+[ext_resource type="Texture2D" uid="uid://ca2n0p4k00d8r" path="res://assets/img/settlements/doors-Sheet.png" id="2_mx18j"]
+
+[node name="Door" type="Sprite2D" unique_id=1504316331]
+texture = ExtResource("2_mx18j")
+hframes = 10

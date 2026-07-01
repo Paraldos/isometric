@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://bp2gt3goafwxn"]
+
+[ext_resource type="Texture2D" uid="uid://b427td0icnjr5" path="res://assets/img/settlements/trapdoor-Sheet.png" id="2_sx7lw"]
+
+[node name="Trapdoor" type="Sprite2D" unique_id=2117278513]
+texture = ExtResource("2_sx7lw")
+offset = Vector2(0, -8)
+hframes = 8
