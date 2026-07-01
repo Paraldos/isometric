@@ -1,7 +1,19 @@
 [gd_scene format=3 uid="uid://6to1g1abd2pn"]
 
 [ext_resource type="Texture2D" uid="uid://ca2n0p4k00d8r" path="res://assets/img/settlements/doors-Sheet.png" id="2_mx18j"]
+[ext_resource type="Script" uid="uid://b025fgs1i4wvt" path="res://deco/door.gd" id="2_w10jk"]
+[ext_resource type="Texture2D" uid="uid://b6hne0vvrqusb" path="res://assets/img/settlements/door_hinges-Sheet.png" id="3_wui12"]
 
 [node name="Door" type="Sprite2D" unique_id=1504316331]
 texture = ExtResource("2_mx18j")
-hframes = 10
+hframes = 20
+frame = 2
+script = ExtResource("2_w10jk")
+door_hinges = 1
+
+[node name="Hinges" type="Sprite2D" parent="." unique_id=1968200648]
+unique_name_in_owner = true
+visible = false
+texture = ExtResource("3_wui12")
+hframes = 8
+frame = 6
