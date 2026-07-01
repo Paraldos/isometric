@@ -5,6 +5,8 @@
 [ext_resource type="PackedScene" uid="uid://bp2gt3goafwxn" path="res://deco/trapdoor.tscn" id="3_2kdjs"]
 [ext_resource type="PackedScene" uid="uid://6to1g1abd2pn" path="res://deco/door.tscn" id="4_vxujt"]
 [ext_resource type="PackedScene" uid="uid://dxa5gskb0s1cn" path="res://deco/table.tscn" id="5_7h8ip"]
+[ext_resource type="PackedScene" uid="uid://d0peu36l1y41g" path="res://deco/bench.tscn" id="6_yh3sw"]
+[ext_resource type="PackedScene" uid="uid://cgte4007nabhe" path="res://deco/fire_bowl.tscn" id="7_xnnmy"]
 
 [node name="Buildings" unique_id=1252869144 instance=ExtResource("1_1uf2x")]
 
@@ -36,26 +38,35 @@ position = Vector2(368, 120)
 position = Vector2(176, 200)
 
 [node name="Trapdoor" parent="Deco" parent_id_path=PackedInt32Array(100005043) index="2" unique_id=2117278513 instance=ExtResource("3_2kdjs")]
-position = Vector2(144, 136)
-flip_h = true
+position = Vector2(144, 152)
 frame = 1
 
 [node name="Door" parent="Deco" parent_id_path=PackedInt32Array(100005043) index="3" unique_id=1504316331 instance=ExtResource("4_vxujt")]
-position = Vector2(184, 88)
+position = Vector2(184, 104)
 flip_h = true
 door_hinges = 2
 
 [node name="Door2" parent="Deco" parent_id_path=PackedInt32Array(100005043) index="4" unique_id=2067251430 instance=ExtResource("4_vxujt")]
-position = Vector2(296, 96)
+position = Vector2(296, 112)
 flip_h = true
 frame = 8
 door_hinges = 3
 
 [node name="Door3" parent="Deco" parent_id_path=PackedInt32Array(100005043) index="5" unique_id=1663160001 instance=ExtResource("4_vxujt")]
-position = Vector2(312, 88)
+position = Vector2(312, 104)
 flip_h = true
 frame = 8
 door_hinges = 4
 
 [node name="Table" parent="Deco" parent_id_path=PackedInt32Array(100005043) index="6" unique_id=1697242098 instance=ExtResource("5_7h8ip")]
-position = Vector2(208, 88)
+position = Vector2(240, 136)
+
+[node name="Bench" parent="Deco" parent_id_path=PackedInt32Array(100005043) index="7" unique_id=1967172302 instance=ExtResource("6_yh3sw")]
+position = Vector2(256, 128)
+frame = 1
+
+[node name="Bench2" parent="Deco" parent_id_path=PackedInt32Array(100005043) index="8" unique_id=1780034559 instance=ExtResource("6_yh3sw")]
+position = Vector2(224, 144)
+
+[node name="FireBowl" parent="Deco" parent_id_path=PackedInt32Array(100005043) index="9" unique_id=566124819 instance=ExtResource("7_xnnmy")]
+position = Vector2(208, 104)

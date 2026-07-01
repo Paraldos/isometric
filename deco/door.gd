@@ -1,4 +1,4 @@
-extends Sprite2D
+extends "res://deco/deco_template.gd"
 
 enum HINGES {
 	NONE,
@@ -10,8 +10,8 @@ enum HINGES {
 @export var door_hinges : = HINGES.NONE
 @onready var hinges: Sprite2D = %Hinges
 
-
 func _ready() -> void:
+	super()
 	hinges.visible = door_hinges != HINGES.NONE
 	hinges.frame = door_hinges - 1
 	if flip_h:

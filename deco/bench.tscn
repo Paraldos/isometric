@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://d0peu36l1y41g"]
+
+[ext_resource type="PackedScene" uid="uid://bisl3ua8h2vk7" path="res://deco/deco_template.tscn" id="1_svpoq"]
+[ext_resource type="Texture2D" uid="uid://di7jbyhdkmfs6" path="res://assets/img/settlements/bench-Sheet.png" id="2_od6bh"]
+
+[node name="Bench" unique_id=106501114 instance=ExtResource("1_svpoq")]
+texture = ExtResource("2_od6bh")
+offset = Vector2(0, -16)
+hframes = 6
+
+[node name="GuidingBlock" parent="." index="1" unique_id=1429915701]
+position = Vector2(0, 0)
+frame = 2

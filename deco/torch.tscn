@@ -8,7 +8,7 @@ length = 0.001
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("MainSprite:frame")
+tracks/0/path = NodePath(".:frame")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
@@ -25,7 +25,7 @@ loop_mode = 1
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("MainSprite:frame")
+tracks/0/path = NodePath(".:frame")
 tracks/0/interp = 2
 tracks/0/loop_wrap = false
 tracks/0/keys = {
@@ -42,15 +42,16 @@ _data = {
 }
 
 [node name="Torch" unique_id=723009896 instance=ExtResource("1_w7myh")]
+texture = ExtResource("2_7qc8d")
+offset = Vector2(-8, -32)
+hframes = 5
 animate_loop = true
 
-[node name="GuidingBlock" parent="." index="0" unique_id=1429915701]
-position = Vector2(-8, -32)
-
-[node name="MainSprite" parent="." index="1" unique_id=462025457]
-position = Vector2(-8, -32)
-texture = ExtResource("2_7qc8d")
-hframes = 5
-
-[node name="MainAnimationPlayer" parent="MainSprite" index="0" unique_id=594552204]
+[node name="MainAnimationPlayer" parent="." index="0" unique_id=594552204]
 libraries/ = SubResource("AnimationLibrary_jjnhj")
+
+[node name="GuidingBlock" parent="." index="1" unique_id=1429915701]
+position = Vector2(-8, -32)
+
+[node name="MainSprite" parent="." index="2" unique_id=462025457]
+position = Vector2(-8, -32)

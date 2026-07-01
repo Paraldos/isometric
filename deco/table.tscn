@@ -1,7 +1,13 @@
 [gd_scene format=3 uid="uid://dxa5gskb0s1cn"]
 
 [ext_resource type="Texture2D" uid="uid://dhoeyqix6wiry" path="res://assets/img/settlements/table-Sheet.png" id="1_3ebmx"]
+[ext_resource type="PackedScene" uid="uid://bisl3ua8h2vk7" path="res://deco/deco_template.tscn" id="1_rsf3k"]
 
-[node name="Table" type="Sprite2D" unique_id=1697242098]
+[node name="Table" unique_id=106501114 instance=ExtResource("1_rsf3k")]
 texture = ExtResource("1_3ebmx")
+offset = Vector2(0, -16)
 hframes = 6
+
+[node name="GuidingBlock" parent="." index="1" unique_id=1429915701]
+position = Vector2(0, 0)
+frame = 2

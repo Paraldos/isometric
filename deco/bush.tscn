@@ -4,13 +4,11 @@
 [ext_resource type="Texture2D" uid="uid://bp8g2l4wdvdgj" path="res://assets/img/nature/blocky_bushes-Sheet.png" id="2_x4vpy"]
 
 [node name="Bush" unique_id=723009896 instance=ExtResource("1_s2e03")]
+texture = ExtResource("2_x4vpy")
+offset = Vector2(0, -16)
+hframes = 3
 randomize_sprite = true
 
-[node name="GuidingBlock" parent="." index="0" unique_id=1429915701]
+[node name="GuidingBlock" parent="." index="1" unique_id=1429915701]
 position = Vector2(0, 0)
 frame = 2
-
-[node name="MainSprite" parent="." index="1" unique_id=462025457]
-position = Vector2(0, -16)
-texture = ExtResource("2_x4vpy")
-hframes = 3

@@ -1,7 +1,0 @@
-[gd_scene format=3 uid="uid://vwb6yghrc7t6"]
-
-[ext_resource type="Texture2D" uid="uid://bh86l8yk6yddb" path="res://assets/img/settlements/table_chair_bench-Sheet.png" id="1_dd0x3"]
-
-[node name="TableChairBench" type="Sprite2D" unique_id=1056018715]
-texture = ExtResource("1_dd0x3")
-hframes = 6

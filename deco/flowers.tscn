@@ -4,13 +4,14 @@
 [ext_resource type="Texture2D" uid="uid://bdw0wwrfb217j" path="res://assets/img/nature/flowers-Sheet.png" id="2_ly7lk"]
 
 [node name="Flowers" unique_id=723009896 instance=ExtResource("1_75em5")]
+texture = ExtResource("2_ly7lk")
+offset = Vector2(0, -16)
+hframes = 6
 randomize_sprite = true
 
-[node name="GuidingBlock" parent="." index="0" unique_id=1429915701]
+[node name="GuidingBlock" parent="." index="1" unique_id=1429915701]
 position = Vector2(0, 0)
 frame = 2
 
-[node name="MainSprite" parent="." index="1" unique_id=462025457]
+[node name="MainSprite" parent="." index="2" unique_id=462025457]
 position = Vector2(0, -16)
-texture = ExtResource("2_ly7lk")
-hframes = 6
