@@ -1,7 +1,6 @@
 extends Sprite2D
 
 @onready var guiding_block: Sprite2D = %GuidingBlock
-@onready var main_sprite: Sprite2D = $MainSprite
 @onready var main_animation_player: AnimationPlayer = %MainAnimationPlayer
 
 @export var randomize_sprite = false

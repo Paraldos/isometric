@@ -59,14 +59,15 @@ frame = 8
 door_hinges = 4
 
 [node name="Table" parent="Deco" parent_id_path=PackedInt32Array(100005043) index="6" unique_id=1697242098 instance=ExtResource("5_7h8ip")]
-position = Vector2(240, 136)
+position = Vector2(336, 120)
 
 [node name="Bench" parent="Deco" parent_id_path=PackedInt32Array(100005043) index="7" unique_id=1967172302 instance=ExtResource("6_yh3sw")]
-position = Vector2(256, 128)
+position = Vector2(352, 112)
 frame = 1
 
 [node name="Bench2" parent="Deco" parent_id_path=PackedInt32Array(100005043) index="8" unique_id=1780034559 instance=ExtResource("6_yh3sw")]
-position = Vector2(224, 144)
+position = Vector2(320, 128)
+frame = 1
 
 [node name="FireBowl" parent="Deco" parent_id_path=PackedInt32Array(100005043) index="9" unique_id=566124819 instance=ExtResource("7_xnnmy")]
 position = Vector2(208, 104)
