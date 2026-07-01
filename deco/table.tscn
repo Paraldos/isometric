@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://dxa5gskb0s1cn"]
+
+[ext_resource type="Texture2D" uid="uid://dhoeyqix6wiry" path="res://assets/img/settlements/table-Sheet.png" id="1_3ebmx"]
+
+[node name="Table" type="Sprite2D" unique_id=1697242098]
+texture = ExtResource("1_3ebmx")
+hframes = 6
