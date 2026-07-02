@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b6gwf1ph3j0kg"
-path="res://.godot/imported/blocky_rocks-Sheet.png-0232bd6fffa31f2a739ded67d5de5876.ctex"
+uid="uid://d1j7mkvrtff66"
+path="res://.godot/imported/tileset_windows-Sheet.png-98dae671c26fbb1b86727bf4dfd20164.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/img/nature/blocky_rocks-Sheet.png"
-dest_files=["res://.godot/imported/blocky_rocks-Sheet.png-0232bd6fffa31f2a739ded67d5de5876.ctex"]
+source_file="res://assets/img/settlements/tileset_windows-Sheet.png"
+dest_files=["res://.godot/imported/tileset_windows-Sheet.png-98dae671c26fbb1b86727bf4dfd20164.ctex"]
 
 [params]
 

@@ -13,6 +13,10 @@ anchor_mode = 0
 y_sort_enabled = true
 metadata/_edit_lock_ = true
 
+[node name="Layer -1" type="TileMapLayer" parent="TileMap" unique_id=1543506751]
+y_sort_enabled = true
+tile_set = ExtResource("1_cqpge")
+
 [node name="Layer 0" type="TileMapLayer" parent="TileMap" unique_id=479169687]
 y_sort_enabled = true
 tile_set = ExtResource("1_cqpge")

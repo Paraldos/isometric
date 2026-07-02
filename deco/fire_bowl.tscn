@@ -51,9 +51,4 @@ animate_loop = true
 libraries/ = SubResource("AnimationLibrary_fsq5v")
 
 [node name="GuidingBlock" parent="." index="1" unique_id=1429915701]
-position = Vector2(0, 0)
 frame = 2
-
-[node name="MainSprite" parent="." index="2" unique_id=462025457]
-visible = false
-position = Vector2(0, -16)

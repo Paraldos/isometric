@@ -5,13 +5,9 @@
 
 [node name="Stones" unique_id=723009896 instance=ExtResource("1_5t2e0")]
 texture = ExtResource("2_2qhfb")
-offset = Vector2(0, -16)
+offset = Vector2(0, -8)
 hframes = 3
 randomize_sprite = true
 
 [node name="GuidingBlock" parent="." index="1" unique_id=1429915701]
-position = Vector2(0, 0)
 frame = 2
-
-[node name="MainSprite" parent="." index="2" unique_id=462025457]
-position = Vector2(0, -16)

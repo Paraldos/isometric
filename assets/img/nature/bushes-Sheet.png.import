@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bp8g2l4wdvdgj"
-path="res://.godot/imported/blocky_bushes-Sheet.png-4616de4aa7e89cf37ed6e75d555b84c7.ctex"
+uid="uid://d327ahwnv42lh"
+path="res://.godot/imported/bushes-Sheet.png-7e7fc886178d68b13ec06c8919daf763.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/img/nature/blocky_bushes-Sheet.png"
-dest_files=["res://.godot/imported/blocky_bushes-Sheet.png-4616de4aa7e89cf37ed6e75d555b84c7.ctex"]
+source_file="res://assets/img/nature/bushes-Sheet.png"
+dest_files=["res://.godot/imported/bushes-Sheet.png-7e7fc886178d68b13ec06c8919daf763.ctex"]
 
 [params]
 

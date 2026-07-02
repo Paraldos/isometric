@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cwharc474vj1u"
-path="res://.godot/imported/blocky_trees-Sheet.png-2a8195fe488bc9a71fe374192e359d9b.ctex"
+uid="uid://b5f3gxw6pbvpv"
+path="res://.godot/imported/rocks-Sheet.png-dbc543797a4cc37150616ba9d426dd8f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/img/nature/blocky_trees-Sheet.png"
-dest_files=["res://.godot/imported/blocky_trees-Sheet.png-2a8195fe488bc9a71fe374192e359d9b.ctex"]
+source_file="res://assets/img/nature/rocks-Sheet.png"
+dest_files=["res://.godot/imported/rocks-Sheet.png-dbc543797a4cc37150616ba9d426dd8f.ctex"]
 
 [params]
 
