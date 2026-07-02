@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://db2skcpo4asdy"
-path="res://.godot/imported/table_chair_bench-Sheet-Sheet.png-771158f58cfb99bd4e41ba710ecd1271.ctex"
+uid="uid://ylyrymtbh3d6"
+path="res://.godot/imported/cart-Sheet.png-e27e936eb75ce62dc71c7976397c054b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/img/settlements/table_chair_bench-Sheet-Sheet.png"
-dest_files=["res://.godot/imported/table_chair_bench-Sheet-Sheet.png-771158f58cfb99bd4e41ba710ecd1271.ctex"]
+source_file="res://assets/img/settlements/cart-Sheet.png"
+dest_files=["res://.godot/imported/cart-Sheet.png-e27e936eb75ce62dc71c7976397c054b.ctex"]
 
 [params]
 

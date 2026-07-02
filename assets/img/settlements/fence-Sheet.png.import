@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bh86l8yk6yddb"
-path="res://.godot/imported/table_chair_bench-Sheet.png-b55db82f3559e59ac8f09a95f43101d7.ctex"
+uid="uid://2ukvpecg2yyi"
+path="res://.godot/imported/fence-Sheet.png-c481e13e28fdd09e057b6162692969d7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/img/settlements/table_chair_bench-Sheet.png"
-dest_files=["res://.godot/imported/table_chair_bench-Sheet.png-b55db82f3559e59ac8f09a95f43101d7.ctex"]
+source_file="res://assets/img/settlements/fence-Sheet.png"
+dest_files=["res://.godot/imported/fence-Sheet.png-c481e13e28fdd09e057b6162692969d7.ctex"]
 
 [params]
 

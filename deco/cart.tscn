@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://ds78gymtvfeb7"]
+
+[ext_resource type="PackedScene" uid="uid://bisl3ua8h2vk7" path="res://deco/deco_template.tscn" id="1_g6yu0"]
+[ext_resource type="Texture2D" uid="uid://ylyrymtbh3d6" path="res://assets/img/settlements/cart-Sheet.png" id="2_upwua"]
+
+[node name="Cart" unique_id=106501114 instance=ExtResource("1_g6yu0")]
+texture = ExtResource("2_upwua")
+offset = Vector2(0, -8)
+
+[node name="GuidingBlock" parent="." index="1" unique_id=1429915701]
+frame = 2

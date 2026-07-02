@@ -27,7 +27,16 @@ y_sort_origin = -16
 y_sort_enabled = true
 tile_set = ExtResource("1_cqpge")
 
+[node name="alt" type="TileMapLayer" parent="TileMap/Layer1" unique_id=1085342703]
+y_sort_enabled = true
+tile_set = ExtResource("1_cqpge")
+
 [node name="Layer2" type="TileMapLayer" parent="TileMap" unique_id=1368217024]
+y_sort_enabled = true
+tile_set = ExtResource("1_cqpge")
+y_sort_origin = 16
+
+[node name="alt" type="TileMapLayer" parent="TileMap/Layer2" unique_id=1446983802]
 y_sort_enabled = true
 tile_set = ExtResource("1_cqpge")
 y_sort_origin = 16
