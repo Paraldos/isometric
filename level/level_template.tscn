@@ -13,48 +13,49 @@ anchor_mode = 0
 y_sort_enabled = true
 metadata/_edit_lock_ = true
 
-[node name="Layer-2" type="TileMapLayer" parent="TileMap" unique_id=97697356]
-y_sort_enabled = true
-tile_set = ExtResource("1_cqpge")
-y_sort_origin = -32
-
-[node name="Layer-1" type="TileMapLayer" parent="TileMap" unique_id=479169687]
-y_sort_enabled = true
-tile_set = ExtResource("1_cqpge")
-y_sort_origin = -16
-
-[node name="Layer1" type="TileMapLayer" parent="TileMap" unique_id=1753328162]
+[node name="Layer 0" type="TileMapLayer" parent="TileMap" unique_id=479169687]
 y_sort_enabled = true
 tile_set = ExtResource("1_cqpge")
 
-[node name="alt" type="TileMapLayer" parent="TileMap/Layer1" unique_id=1085342703]
+[node name="alt" type="TileMapLayer" parent="TileMap/Layer 0" unique_id=562725876]
 y_sort_enabled = true
 tile_set = ExtResource("1_cqpge")
 
-[node name="Layer2" type="TileMapLayer" parent="TileMap" unique_id=1368217024]
+[node name="Layer 16" type="TileMapLayer" parent="TileMap" unique_id=1753328162]
 y_sort_enabled = true
 tile_set = ExtResource("1_cqpge")
 y_sort_origin = 16
 
-[node name="alt" type="TileMapLayer" parent="TileMap/Layer2" unique_id=1446983802]
+[node name="alt" type="TileMapLayer" parent="TileMap/Layer 16" unique_id=1085342703]
+visible = false
 y_sort_enabled = true
 tile_set = ExtResource("1_cqpge")
-y_sort_origin = 16
 
-[node name="Layer3" type="TileMapLayer" parent="TileMap" unique_id=875890928]
+[node name="Layer 32" type="TileMapLayer" parent="TileMap" unique_id=1368217024]
 y_sort_enabled = true
 tile_set = ExtResource("1_cqpge")
 y_sort_origin = 32
 
-[node name="Layer4" type="TileMapLayer" parent="TileMap" unique_id=1715308759]
+[node name="alt" type="TileMapLayer" parent="TileMap/Layer 32" unique_id=1446983802]
+visible = false
+y_sort_enabled = true
+tile_set = ExtResource("1_cqpge")
+y_sort_origin = 16
+
+[node name="Layer 48" type="TileMapLayer" parent="TileMap" unique_id=875890928]
 y_sort_enabled = true
 tile_set = ExtResource("1_cqpge")
 y_sort_origin = 48
 
-[node name="Layer5" type="TileMapLayer" parent="TileMap" unique_id=405971265]
+[node name="Layer 64" type="TileMapLayer" parent="TileMap" unique_id=1715308759]
 y_sort_enabled = true
 tile_set = ExtResource("1_cqpge")
 y_sort_origin = 64
+
+[node name="Layer 80" type="TileMapLayer" parent="TileMap" unique_id=405971265]
+y_sort_enabled = true
+tile_set = ExtResource("1_cqpge")
+y_sort_origin = 80
 
 [node name="Deco" type="Node2D" parent="." unique_id=100005043]
 y_sort_enabled = true
