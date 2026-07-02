@@ -51,12 +51,27 @@ y_sort_enabled = true
 tile_set = ExtResource("1_cqpge")
 y_sort_origin = 48
 
+[node name="alt" type="TileMapLayer" parent="TileMap/Layer 48" unique_id=1178630746]
+y_sort_enabled = true
+tile_set = ExtResource("1_cqpge")
+y_sort_origin = 48
+
 [node name="Layer 64" type="TileMapLayer" parent="TileMap" unique_id=1715308759]
 y_sort_enabled = true
 tile_set = ExtResource("1_cqpge")
 y_sort_origin = 64
 
+[node name="alt" type="TileMapLayer" parent="TileMap/Layer 64" unique_id=1031616146]
+y_sort_enabled = true
+tile_set = ExtResource("1_cqpge")
+y_sort_origin = 64
+
 [node name="Layer 80" type="TileMapLayer" parent="TileMap" unique_id=405971265]
+y_sort_enabled = true
+tile_set = ExtResource("1_cqpge")
+y_sort_origin = 80
+
+[node name="alt" type="TileMapLayer" parent="TileMap/Layer 80" unique_id=1380956564]
 y_sort_enabled = true
 tile_set = ExtResource("1_cqpge")
 y_sort_origin = 80

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://mmxjvbo2h5mu"
-path="res://.godot/imported/tileset_ceiling-Sheet.png-a9c5c4f1ff0097433afd7913268e113a.ctex"
+uid="uid://d2lpaslc8704f"
+path="res://.godot/imported/tileset_roof-Sheet.png-1ed18c6b6dd2bbfa754a4779b390f01f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/img/settlements/tileset_ceiling-Sheet.png"
-dest_files=["res://.godot/imported/tileset_ceiling-Sheet.png-a9c5c4f1ff0097433afd7913268e113a.ctex"]
+source_file="res://assets/img/settlements/tileset_roof-Sheet.png"
+dest_files=["res://.godot/imported/tileset_roof-Sheet.png-1ed18c6b6dd2bbfa754a4779b390f01f.ctex"]
 
 [params]
 
