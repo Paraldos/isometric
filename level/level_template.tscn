@@ -2,7 +2,7 @@
 
 [ext_resource type="TileSet" uid="uid://bav5icqvendpw" path="res://tiles/TileSet.tres" id="1_cqpge"]
 
-[node name="Bridges" type="Node2D" unique_id=1252869144]
+[node name="LevelTemplate" type="Node2D" unique_id=1252869144]
 y_sort_enabled = true
 metadata/_edit_lock_ = true
 
