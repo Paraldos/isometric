@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://dn58o1perypbn"]
+
+[ext_resource type="PackedScene" uid="uid://bisl3ua8h2vk7" path="res://deco/deco_template.tscn" id="1_cev2s"]
+[ext_resource type="Texture2D" uid="uid://cnkbmllot4kk1" path="res://assets/img/settlements/crates-Sheet.png" id="2_yjqlr"]
+
+[node name="Crate" unique_id=106501114 instance=ExtResource("1_cev2s")]
+texture = ExtResource("2_yjqlr")
+offset = Vector2(0, -8)
+hframes = 9
+randomize_sprite = true
+rand_offset_y = 2
+rand_offset_x = 2

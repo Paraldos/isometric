@@ -11,6 +11,8 @@ offset = Vector2(0, -16)
 hframes = 10
 script = ExtResource("2_w10jk")
 door_hinges = 0
+rand_offset_y = 0
+rand_offset_x = 0
 
 [node name="GuidingBlock" parent="." index="1" unique_id=1429915701]
 position = Vector2(8, -16)

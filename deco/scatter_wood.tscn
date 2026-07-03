@@ -6,8 +6,5 @@
 [node name="ScatterWood" unique_id=723009896 instance=ExtResource("1_q3b81")]
 texture = ExtResource("2_jydw6")
 offset = Vector2(0, -8)
-hframes = 3
+hframes = 5
 randomize_sprite = true
-
-[node name="GuidingBlock" parent="." index="1" unique_id=1429915701]
-frame = 2

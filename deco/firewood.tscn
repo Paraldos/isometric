@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://7aj5g3elyho1"]
+
+[ext_resource type="PackedScene" uid="uid://bisl3ua8h2vk7" path="res://deco/deco_template.tscn" id="1_djdky"]
+[ext_resource type="Texture2D" uid="uid://dy2y8a1jaainb" path="res://assets/img/settlements/Firewood-Sheet.png" id="2_oamyr"]
+
+[node name="Firewood" unique_id=106501114 instance=ExtResource("1_djdky")]
+texture = ExtResource("2_oamyr")
+offset = Vector2(0, -8)
+hframes = 2

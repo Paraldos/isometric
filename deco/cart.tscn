@@ -5,7 +5,4 @@
 
 [node name="Cart" unique_id=106501114 instance=ExtResource("1_g6yu0")]
 texture = ExtResource("2_upwua")
-offset = Vector2(0, -8)
-
-[node name="GuidingBlock" parent="." index="1" unique_id=1429915701]
-frame = 2
+hframes = 2

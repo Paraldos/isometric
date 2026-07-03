@@ -7,6 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://ylfaqeeiq74j" path="res://deco/mushrooms.tscn" id="5_ilcji"]
 [ext_resource type="PackedScene" uid="uid://ciknnggqu0rad" path="res://deco/rocks.tscn" id="6_rqomj"]
 [ext_resource type="PackedScene" uid="uid://dqtw7ywvnkfi2" path="res://deco/stones.tscn" id="7_q5vb7"]
+[ext_resource type="PackedScene" uid="uid://bhpf8as2ad0wi" path="res://deco/scatter_wood.tscn" id="8_ff4je"]
 
 [node name="Forest" unique_id=1252869144 instance=ExtResource("1_cyjpo")]
 
@@ -181,3 +182,24 @@ position = Vector2(224, 184)
 
 [node name="Stones5" parent="Deco" parent_id_path=PackedInt32Array(100005043) index="52" unique_id=1778031272 instance=ExtResource("7_q5vb7")]
 position = Vector2(64, 232)
+
+[node name="ScatterWood" parent="Deco" parent_id_path=PackedInt32Array(100005043) index="53" unique_id=2120881413 instance=ExtResource("8_ff4je")]
+position = Vector2(208, 176)
+
+[node name="ScatterWood2" parent="Deco" parent_id_path=PackedInt32Array(100005043) index="54" unique_id=716030749 instance=ExtResource("8_ff4je")]
+position = Vector2(224, 88)
+
+[node name="ScatterWood3" parent="Deco" parent_id_path=PackedInt32Array(100005043) index="55" unique_id=876639458 instance=ExtResource("8_ff4je")]
+position = Vector2(40, 136)
+
+[node name="ScatterWood4" parent="Deco" parent_id_path=PackedInt32Array(100005043) index="56" unique_id=1370745376 instance=ExtResource("8_ff4je")]
+position = Vector2(224, 40)
+
+[node name="ScatterWood5" parent="Deco" parent_id_path=PackedInt32Array(100005043) index="57" unique_id=667735236 instance=ExtResource("8_ff4je")]
+position = Vector2(336, 144)
+
+[node name="ScatterWood6" parent="Deco" parent_id_path=PackedInt32Array(100005043) index="58" unique_id=19792527 instance=ExtResource("8_ff4je")]
+position = Vector2(128, 200)
+
+[node name="ScatterWood7" parent="Deco" parent_id_path=PackedInt32Array(100005043) index="59" unique_id=274353645 instance=ExtResource("8_ff4je")]
+position = Vector2(368, 64)

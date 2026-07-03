@@ -5,9 +5,15 @@ extends Sprite2D
 
 @export var randomize_sprite = false
 @export var animate_loop = false
+@export var rand_offset_y = 0
+@export var rand_offset_x = 0
 
 func _ready() -> void:
 	guiding_block.visible = false
+	if rand_offset_y != 0:
+		offset.y += randi_range(rand_offset_y * -1, rand_offset_y)
+	if rand_offset_x != 0:
+		offset.x += randi_range(rand_offset_x * -1, rand_offset_x)
 	if randomize_sprite:
 		frame = randi_range(0, hframes -1)
 	if main_animation_player.has_animation('loop') && animate_loop:
