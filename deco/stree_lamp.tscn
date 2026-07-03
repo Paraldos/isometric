@@ -1,0 +1,49 @@
+[gd_scene format=3 uid="uid://hwcttbpl3y45"]
+
+[ext_resource type="PackedScene" uid="uid://bisl3ua8h2vk7" path="res://deco/deco_template.tscn" id="1_g41iv"]
+[ext_resource type="Texture2D" uid="uid://c4c4eok2sh70a" path="res://assets/img/settlements/street_lamp-Sheet.png" id="2_m3m6c"]
+
+[sub_resource type="Animation" id="Animation_g41iv"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="Animation" id="Animation_m3m6c"]
+resource_name = "loop"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 2
+tracks/0/loop_wrap = false
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [1, 4]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_s1psb"]
+_data = {
+&"RESET": SubResource("Animation_g41iv"),
+&"loop": SubResource("Animation_m3m6c")
+}
+
+[node name="StreeLamp" unique_id=106501114 instance=ExtResource("1_g41iv")]
+texture = ExtResource("2_m3m6c")
+offset = Vector2(0, -24)
+hframes = 5
+
+[node name="MainAnimationPlayer" parent="." index="0" unique_id=594552204]
+libraries/ = SubResource("AnimationLibrary_s1psb")

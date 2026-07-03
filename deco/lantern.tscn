@@ -1,0 +1,49 @@
+[gd_scene format=3 uid="uid://wq072n4ftt2i"]
+
+[ext_resource type="PackedScene" uid="uid://bisl3ua8h2vk7" path="res://deco/deco_template.tscn" id="1_yd5h4"]
+[ext_resource type="Texture2D" uid="uid://dq8bo152w8ish" path="res://assets/img/settlements/lantern-Sheet.png" id="2_1e3ri"]
+
+[sub_resource type="Animation" id="Animation_xn6m8"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="Animation" id="Animation_la2s5"]
+resource_name = "loop"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 2
+tracks/0/loop_wrap = false
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [1, 4]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_chjlf"]
+_data = {
+&"RESET": SubResource("Animation_xn6m8"),
+&"loop": SubResource("Animation_la2s5")
+}
+
+[node name="Lantern" unique_id=106501114 instance=ExtResource("1_yd5h4")]
+texture = ExtResource("2_1e3ri")
+offset = Vector2(0, -16)
+hframes = 5
+
+[node name="MainAnimationPlayer" parent="." index="0" unique_id=594552204]
+libraries/ = SubResource("AnimationLibrary_chjlf")
