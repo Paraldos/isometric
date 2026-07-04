@@ -11,16 +11,16 @@ config_version=5
 [application]
 
 config/name="isometric"
-run/main_scene="uid://c20dfn5nun2y4"
+run/main_scene="uid://qvyglx22o8wy"
 config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://icon.svg"
 
 [display]
 
-window/size/viewport_width=400
-window/size/viewport_height=300
-window/size/window_width_override=1200
-window/size/window_height_override=900
+window/size/viewport_width=315
+window/size/viewport_height=250
+window/size/window_width_override=630
+window/size/window_height_override=500
 window/stretch/mode="viewport"
 
 [gui]

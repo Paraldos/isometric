@@ -5,4 +5,5 @@
 
 [node name="Cart" unique_id=106501114 instance=ExtResource("1_g6yu0")]
 texture = ExtResource("2_upwua")
+offset = Vector2(0, -8)
 hframes = 2

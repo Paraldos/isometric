@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://c8t5ax3tcc0tj"]
+
+[ext_resource type="PackedScene" uid="uid://bisl3ua8h2vk7" path="res://deco/deco_template.tscn" id="1_t57j1"]
+[ext_resource type="Texture2D" uid="uid://dtfkle1cej7qi" path="res://assets/img/settlements/Sign.png" id="2_v6irg"]
+
+[node name="Sign" unique_id=106501114 instance=ExtResource("1_t57j1")]
+texture = ExtResource("2_v6irg")
+offset = Vector2(0, -24)
+
+[node name="GuidingBlock" parent="." index="1" unique_id=1429915701]
+position = Vector2(-16, -16)
+frame = 0

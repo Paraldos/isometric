@@ -7,7 +7,3 @@
 texture = ExtResource("2_od6bh")
 offset = Vector2(0, -16)
 hframes = 6
-
-[node name="GuidingBlock" parent="." index="1" unique_id=1429915701]
-position = Vector2(0, 0)
-frame = 2

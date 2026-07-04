@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://qvyglx22o8wy"]
+
+[node name="Level" type="Node2D" unique_id=239658711]
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=666414897]
+anchor_mode = 0
