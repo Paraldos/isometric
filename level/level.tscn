@@ -3,4 +3,7 @@
 [node name="Level" type="Node2D" unique_id=239658711]
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=666414897]
-anchor_mode = 0
+z_index = 4096
+position = Vector2(156, 125)
+limit_left = 0
+limit_top = 0

@@ -1,5 +1,8 @@
 [gd_scene format=3 uid="uid://cly8q5sybmpqj"]
 
 [ext_resource type="PackedScene" uid="uid://qvyglx22o8wy" path="res://level/level.tscn" id="1_adi6x"]
+[ext_resource type="PackedScene" uid="uid://cnng2w5p6syuq" path="res://tilemap/tilemap_water.tscn" id="2_c6owv"]
 
 [node name="SettlementLogo" unique_id=239658711 instance=ExtResource("1_adi6x")]
+
+[node name="Water" parent="." index="1" unique_id=1181866370 instance=ExtResource("2_c6owv")]
