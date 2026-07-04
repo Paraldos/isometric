@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://by06hy8jihoxa"]
+
+[ext_resource type="PackedScene" uid="uid://bisl3ua8h2vk7" path="res://deco/deco_template.tscn" id="1_55mig"]
+[ext_resource type="Texture2D" uid="uid://b5bn3wbks6w4c" path="res://assets/img/settlements/well-Sheet.png" id="2_4rxf1"]
+
+[node name="DecoTemplate" unique_id=106501114 instance=ExtResource("1_55mig")]
+texture = ExtResource("2_4rxf1")
+offset = Vector2(0, -24)

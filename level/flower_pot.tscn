@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://bbb1yp71sjol3"]
+
+[ext_resource type="PackedScene" uid="uid://bisl3ua8h2vk7" path="res://deco/deco_template.tscn" id="1_l5xod"]
+[ext_resource type="Texture2D" uid="uid://d3ptk3foac23f" path="res://assets/img/settlements/flower_pot-Sheet.png" id="2_3fb2y"]
+
+[node name="FlowerPot" unique_id=106501114 instance=ExtResource("1_l5xod")]
+texture = ExtResource("2_3fb2y")
+offset = Vector2(0, -16)
+hframes = 7
