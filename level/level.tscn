@@ -7,3 +7,10 @@ z_index = 4096
 position = Vector2(156, 125)
 limit_left = 0
 limit_top = 0
+
+[node name="Deco" type="Node2D" parent="." unique_id=1553801641]
+y_sort_enabled = true
+
+[node name="DecoLow" type="Node2D" parent="." unique_id=441101884]
+y_sort_enabled = true
+position = Vector2(0, -1)

@@ -5,9 +5,4 @@
 
 [node name="Trapdoor" unique_id=106501114 instance=ExtResource("1_3in0u")]
 texture = ExtResource("2_sx7lw")
-offset = Vector2(0, -8)
 hframes = 2
-
-[node name="GuidingBlock" parent="." index="1" unique_id=1429915701]
-position = Vector2(0, 0)
-frame = 2

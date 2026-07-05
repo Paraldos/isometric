@@ -13,6 +13,6 @@ enum HINGES {
 func _ready() -> void:
 	super()
 	hinges.visible = door_hinges != HINGES.NONE
-	hinges.frame = door_hinges - 1
+	hinges.frame = door_hinges - 1 || 0
 	if flip_h:
 		hinges.frame += 4

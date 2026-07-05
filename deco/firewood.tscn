@@ -5,5 +5,4 @@
 
 [node name="Firewood" unique_id=106501114 instance=ExtResource("1_djdky")]
 texture = ExtResource("2_oamyr")
-offset = Vector2(0, -8)
 hframes = 2

@@ -13,6 +13,7 @@ unique_name_in_owner = true
 unique_name_in_owner = true
 modulate = Color(1, 1, 1, 0.30980393)
 show_behind_parent = true
+position = Vector2(0, 8)
 texture = ExtResource("1_p8tip")
 vframes = 3
 frame = 2

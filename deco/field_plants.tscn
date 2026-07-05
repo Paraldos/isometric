@@ -5,5 +5,8 @@
 
 [node name="FieldPlants" unique_id=106501114 instance=ExtResource("1_wvsy4")]
 texture = ExtResource("2_tsedb")
-offset = Vector2(0, -16)
+offset = Vector2(0, -8)
 hframes = 7
+
+[node name="GuidingBlock" parent="." index="1" unique_id=1429915701]
+position = Vector2(0, 8)
