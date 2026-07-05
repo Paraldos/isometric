@@ -44,7 +44,7 @@ tile_map_data = PackedByteArray("AAABAAYAAgAFAAAAAAACAAYAAgAFAAAAAAADAAYAAgAFAAA
 y_sort_origin = 64
 
 [node name="Char" parent="." index="7" unique_id=1929768712 instance=ExtResource("8_4x6nq")]
-position = Vector2(64, 96)
+position = Vector2(48, 112)
 scale = Vector2(-1, 1)
 
 [node name="Door" parent="Deco" parent_id_path=PackedInt32Array(1553801641) index="0" unique_id=106501114 instance=ExtResource("4_vaqyf")]
